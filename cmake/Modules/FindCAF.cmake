@@ -86,9 +86,11 @@ foreach (comp ${CAF_FIND_COMPONENTS})
 endforeach ()
 
 # let CMake check whether all requested components have been found
+#edit by hand if not linux
+#(just change {libcaf_core.so,libcaf_io.so} with .dylib) this is the official FindCaf file and it do not work at least for me
 set(CAF_INCLUDE_DIRS "usr/local/include/caf")
-set(CAF_LIBRARIES ${CAF_LIBRARIES} "libcaf_core.dylib")
-set(CAF_LIBRARIES ${CAF_LIBRARIES} "libcaf_io.dylib")
+set(CAF_LIBRARIES ${CAF_LIBRARIES} "libcaf_core.so")
+set(CAF_LIBRARIES ${CAF_LIBRARIES} "libcaf_io.so")
 include(FindPackageHandleStandardArgs)
 find_package_handle_standard_args(CAF
                                   FOUND_VAR CAF_FOUND

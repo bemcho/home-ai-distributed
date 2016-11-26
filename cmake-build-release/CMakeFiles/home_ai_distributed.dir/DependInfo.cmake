@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bemcho/Projects/home-ai-distributed/source/main.cpp" "/home/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles/home_ai_distributed.dir/source/main.cpp.o"
+  "/home/bemcho/Projects/home-ai-distributed/source/main.cpp" "/home/bemcho/Projects/home-ai-distributed/cmake-build-release/CMakeFiles/home_ai_distributed.dir/source/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES

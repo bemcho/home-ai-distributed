@@ -1,3 +1,1 @@
-/Users/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles/home_ai_distributed.dir
+/home/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles/home_ai_distributed.dir

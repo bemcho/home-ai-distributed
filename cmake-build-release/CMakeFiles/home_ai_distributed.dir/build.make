@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/bemcho/Projects/home-ai-distributed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bemcho/Projects/home-ai-distributed/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bemcho/Projects/home-ai-distributed/cmake-build-release
 
 # Include any dependencies generated for this target.
 include CMakeFiles/home_ai_distributed.dir/depend.make
@@ -51,7 +51,7 @@ include CMakeFiles/home_ai_distributed.dir/flags.make
 
 CMakeFiles/home_ai_distributed.dir/source/main.cpp.o: CMakeFiles/home_ai_distributed.dir/flags.make
 CMakeFiles/home_ai_distributed.dir/source/main.cpp.o: ../source/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bemcho/Projects/home-ai-distributed/cmake-build-release/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/home_ai_distributed.dir/source/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/home_ai_distributed.dir/source/main.cpp.o -c /home/bemcho/Projects/home-ai-distributed/source/main.cpp
 
@@ -101,6 +101,7 @@ home_ai_distributed_EXTERNAL_OBJECTS =
 ../bin/home_ai_distributed: /usr/local/lib/libopencv_bgsegm.so.3.1.0
 ../bin/home_ai_distributed: /usr/local/lib/libopencv_bioinspired.so.3.1.0
 ../bin/home_ai_distributed: /usr/local/lib/libopencv_ccalib.so.3.1.0
+../bin/home_ai_distributed: /usr/local/lib/libopencv_cvv.so.3.1.0
 ../bin/home_ai_distributed: /usr/local/lib/libopencv_datasets.so.3.1.0
 ../bin/home_ai_distributed: /usr/local/lib/libopencv_dnn.so.3.1.0
 ../bin/home_ai_distributed: /usr/local/lib/libopencv_dpm.so.3.1.0
@@ -156,6 +157,6 @@ CMakeFiles/home_ai_distributed.dir/clean:
 .PHONY : CMakeFiles/home_ai_distributed.dir/clean
 
 CMakeFiles/home_ai_distributed.dir/depend:
-	cd /home/bemcho/Projects/home-ai-distributed/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bemcho/Projects/home-ai-distributed /home/bemcho/Projects/home-ai-distributed /home/bemcho/Projects/home-ai-distributed/cmake-build-debug /home/bemcho/Projects/home-ai-distributed/cmake-build-debug /home/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles/home_ai_distributed.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bemcho/Projects/home-ai-distributed/cmake-build-release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bemcho/Projects/home-ai-distributed /home/bemcho/Projects/home-ai-distributed /home/bemcho/Projects/home-ai-distributed/cmake-build-release /home/bemcho/Projects/home-ai-distributed/cmake-build-release /home/bemcho/Projects/home-ai-distributed/cmake-build-release/CMakeFiles/home_ai_distributed.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/home_ai_distributed.dir/depend
 

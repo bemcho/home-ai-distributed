@@ -50,7 +50,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/bemcho/Projects/home-ai-distributed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bemcho/Projects/home-ai-distributed/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bemcho/Projects/home-ai-distributed/cmake-build-release
 
 #=============================================================================
 # Target rules for target CMakeFiles/home_ai_distributed.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/bemcho/Projects/home-ai-distributed/cmake-build-debug
 CMakeFiles/home_ai_distributed.dir/all:
 	$(MAKE) -f CMakeFiles/home_ai_distributed.dir/build.make CMakeFiles/home_ai_distributed.dir/depend
 	$(MAKE) -f CMakeFiles/home_ai_distributed.dir/build.make CMakeFiles/home_ai_distributed.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bemcho/Projects/home-ai-distributed/cmake-build-release/CMakeFiles  1
 	@echo "Built target home_ai_distributed"
 .PHONY : CMakeFiles/home_ai_distributed.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/home_ai_distributed.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/home_ai_distributed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bemcho/Projects/home-ai-distributed/cmake-build-release/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/home_ai_distributed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bemcho/Projects/home-ai-distributed/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bemcho/Projects/home-ai-distributed/cmake-build-release/CMakeFiles 0
 .PHONY : CMakeFiles/home_ai_distributed.dir/rule
 
 # Convenience name for target.
